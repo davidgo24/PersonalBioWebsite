@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-@media(min-width: 768px) {
-    .container {
-        width: 50%;
-    }
-}
-
-
 :root{
     --navbar-width:300px;
     --color-light: #fff;
@@ -161,4 +154,15 @@ li:hover::before{
     background: rgb(105, 167, 209);
     color: whitesmoke;
 
+}
+
+.h {
+    font-size: 18px;
+}
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
